@@ -96,5 +96,4 @@ Through this project, you will learn to:
 
 ```text
 Developer → GitHub → Jenkins → SonarQube → DockerHub → Argo CD → Kubernetes
-
 ```
