@@ -58,8 +58,7 @@ The pipeline automates every stage of the software development lifecycle — fro
 - Automated **build → test → deploy** pipeline  
 - **Static code analysis** with SonarQube  
 - **Containerization** using Docker  
-- **GitOps-style deployment** using Argo CD  
-- **Real-time notifications** via Slack and Email  
+- **GitOps-style deployment** using Argo CD   
 - Fully integrated **DevSecOps workflow**
 
 ---
@@ -72,7 +71,6 @@ The pipeline automates every stage of the software development lifecycle — fro
 4. **Container Build & Push → DockerHub**
 5. **Manifest Update → GitHub Repo**
 6. **Deployment → Argo CD → Kubernetes**
-7. **Notifications → Slack / Email**
 
 ---
 
