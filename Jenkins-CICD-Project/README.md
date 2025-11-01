@@ -52,7 +52,6 @@ The pipeline automates every stage of the software development lifecycle — fro
 | **Registry** | DockerHub |
 | **Deployment** | Argo CD |
 | **Orchestration** | Kubernetes |
-| **Notifications** | Slack, Email |
 | **Version Control** | GitHub |
 
 ---
