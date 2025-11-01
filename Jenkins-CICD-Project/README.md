@@ -99,12 +99,5 @@ Developer → GitHub → Jenkins → SonarQube → DockerHub → Argo CD → Kub
 
 ---
 
-🧑‍💻 Author
-
-Gokul K
-
-📫 Connect: LinkedIn| GitHub
-
-🏁 Conclusion
 
 This project showcases a modern CI/CD setup that integrates continuous integration, automated testing, containerization, and GitOps-based deployment ensuring faster, more reliable, and secure software delivery.
