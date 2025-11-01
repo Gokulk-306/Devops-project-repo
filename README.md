@@ -50,9 +50,9 @@ Currently building hands-on projects to strengthen my DevOps skills and showcase
 ---
 
 ## 🤝 Connect With Me
-- 🌐 [LinkedIn](https://www.linkedin.com/in/gokulk-306)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/gokul-k30/)
 - 💻 [GitHub](https://github.com/Gokulk-306)
-- 📧 **Email:** gokuldevops306@gmail.com
+- 📧 **Email:** ceecgokul2024@gmail.com
 
 ---
 
