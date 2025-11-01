@@ -96,8 +96,3 @@ Through this project, you will learn to:
 
 ```text
 Developer → GitHub → Jenkins → SonarQube → DockerHub → Argo CD → Kubernetes
-
----
-
-
-This project showcases a modern CI/CD setup that integrates continuous integration, automated testing, containerization, and GitOps-based deployment ensuring faster, more reliable, and secure software delivery.
