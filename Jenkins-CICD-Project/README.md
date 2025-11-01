@@ -2,8 +2,6 @@
 
 This project demonstrates a **complete CI/CD pipeline** using **Jenkins**, **SonarQube**, **Maven**, **Docker**, and **Argo CD** for continuous integration, automated testing, containerization, and deployment to a **Kubernetes cluster**.
 
-![CI/CD Workflow](./fbc64f2f-b7c7-488c-a734-64dbe036d022.png)
-
 ---
 
 ## 🧩 Pipeline Overview
