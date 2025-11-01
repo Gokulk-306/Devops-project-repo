@@ -36,9 +36,6 @@ The pipeline automates every stage of the software development lifecycle — fro
    - **Argo CD** continuously monitors the manifests repository.
    - On detecting updates, it deploys the latest image to the **Kubernetes cluster** automatically.
 
-8. **Notifications**
-   - Build and deployment results are sent to Slack and Email for visibility.
-
 ---
 
 ## 🧰 Tech Stack
@@ -64,18 +61,6 @@ The pipeline automates every stage of the software development lifecycle — fro
 - **GitOps-style deployment** using Argo CD  
 - **Real-time notifications** via Slack and Email  
 - Fully integrated **DevSecOps workflow**
-
----
-
-## 📁 Repository Structure
-
-├── Jenkinsfile # Defines the CI/CD pipeline stages
-├── manifests/ # Kubernetes manifests for deployment
-├── src/ # Application source code
-├── Dockerfile # Container image build configuration
-├── sonar-project.properties # SonarQube configuration
-└── README.md # Project documentation
-
 
 ---
 
