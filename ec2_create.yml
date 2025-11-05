@@ -1,0 +1,21 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+  - name: create ec2_instance 
+    amazon.aws.ec2_instance:
+      name: "{{ item.name }}"
+      key_name: "gokul"
+      instance_type: t2.micro
+      security_group: default
+      region: us-east-2
+      aws_access_key: "{{ec2_access_key}}"  # From vault as defined
+      aws_secret_key: "{{ec2_secret_key}}" # From vault as defined      
+      network:
+        assign_public_ip: true
+      image_id: "{{ item.image }}"
+    loop:
+      - { image: "ami-083b3f53cbda7e5a4", name: "Manage-node-1" }
+      - { image: "ami-0f5fcdfbd140e4ab7", name: "Manage-node-2" }
+      - { image: "ami-0f5fcdfbd140e4ab7", name: "Manage-node-3" }
+
