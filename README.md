@@ -6,7 +6,7 @@ This repository showcases all my **DevOps-related projects** that I’ve built w
 
 ## 📂 Project List
 
-### 1️⃣ **Jira Automation Webhook**
+### **Jira Automation Webhook**
 - Built a Flask-based REST API service that listens to GitHub issue comment events (like `/jira`) and automatically creates Jira tickets.
 - Implements **secure API authentication** using environment variables.
 - Stack: `Python`, `Flask`, `Requests`, `Jira REST API`.
@@ -15,8 +15,8 @@ This repository showcases all my **DevOps-related projects** that I’ve built w
 
 ---
 
-### 2️⃣ **Kubernetes PR Analyzer**
-- A Python script that fetches pull requests from the **Kubernetes** GitHub repository and counts how many PRs each contributor created.
+### **Kubernetes PR Analyzer**
+- A Python script that fetches pull requests from the **Kubernetes** GitHub repository and counts how many PRs each contributor created.    
 - Helps analyze contribution patterns using the **GitHub REST API**.
 - Stack: `Python`, `Requests`, `GitHub API`.
 
@@ -24,7 +24,7 @@ This repository showcases all my **DevOps-related projects** that I’ve built w
 
 ---
 
-### 3️⃣ **Jenkins CI/CD Pipeline**
+### **Jenkins CI/CD Pipeline**
 - Demonstrates a simple **CI/CD pipeline** setup using Jenkins.
 - Automates build, test, and deployment stages for sample applications.
 - Stack: `Jenkins`, `Git`, `Docker`, `AWS EC2`.
@@ -33,18 +33,27 @@ This repository showcases all my **DevOps-related projects** that I’ve built w
 
 ---
 
+### **Ansible Project**
+- Created 3 instances (Ubuntu & Centos) on aws using **Ansible loops** 
+- Set up **Passwordless authentication** between ansible control node and newly created instances
+- Automate the **Shutdown** of ubuntu instances using ansible conditions
+
+📁 [View Project](./Ansible-Project)
+
+---
+
 ## 🧰 Tools & Technologies
-- **Version Control:** Git, GitHub  
-- **CI/CD:** Jenkins, GitHub Actions  
-- **Automation:** Ansible, Terraform  
-- **Cloud:** AWS  
-- **Scripting:** Python, Bash  
-- **Monitoring:** Prometheus, Grafana  
+- **Version Control:** Git, GitHub
+- **CI/CD:** Jenkins, GitHub Actions
+- **Automation:** Ansible, Terraform
+- **Cloud:** AWS
+- **Scripting:** Python, Bash
+- **Monitoring:** Prometheus, Grafana
 
 ---
 
 ## 🧑‍💻 About Me
-I’m **Gokul K**, a **Fresher - DevOps Enthusiast**, passionate about automation, cloud, and continuous integration/delivery.  
+I’m **Gokul K**, a **Fresher - DevOps Enthusiast**, passionate about automation, cloud, and continuous integration/delivery.
 Currently building hands-on projects to strengthen my DevOps skills and showcase my learning journey.
 
 ---
