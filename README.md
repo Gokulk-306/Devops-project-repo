@@ -15,8 +15,8 @@ This repository showcases all my **DevOps-related projects** that I’ve built w
 
 ---
 
-### 2️⃣ **Kubernetes PR Analyzer**
-- A Python script that fetches pull requests from the **Kubernetes** GitHub repository and counts how many PRs each contributor created.
+### **Kubernetes PR Analyzer**
+- A Python script that fetches pull requests from the **Kubernetes** GitHub repository and counts how many PRs each contributor created.    
 - Helps analyze contribution patterns using the **GitHub REST API**.
 - Stack: `Python`, `Requests`, `GitHub API`.
 
@@ -29,7 +29,27 @@ This repository showcases all my **DevOps-related projects** that I’ve built w
 - Automates build, test, and deployment stages for sample applications.
 - Stack: `Jenkins`, `Git`, `Docker`, `AWS EC2`.
 
-📁 [View Project](./Jenkins-CICD)
+📁 [View Project](./Jenkins-CICD-Project)
+
+---
+
+### **Ansible EC2 Automation**
+- Demonstrates an **Ansible automation project** to create and manage AWS EC2 instances.  
+- Provisions multiple **EC2 instances** with different **AMI IDs** using a loop.  
+- Includes a separate playbook to **shutdown Debian-based instances** automatically.  
+- Stack: `Ansible`, `AWS EC2`, `YAML`
+
+📁 [View Project](./Ansible-Project)
+
+---
+
+### **Cost Optimization By Deleting EBS Snapshot**
+- Demonstrates an automated **EBS snapshot cleanup** solution for AWS cost optimization.  
+- Uses **AWS Lambda** and **Boto3** to identify and delete **unused EBS snapshots** automatically.  
+- Helps reduce **storage costs** by removing snapshots not linked to any active volume or instance.  
+- Stack: `AWS Lambda`, `Boto3`, `EC2`, `EBS`
+
+📁 [View Project](./Cost-Optimization-Project)
 
 ---
 
