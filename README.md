@@ -11,12 +11,12 @@ This repository showcases all my **DevOps-related projects** that I’ve built w
 - Implements **secure API authentication** using environment variables.
 - Stack: `Python`, `Flask`, `Requests`, `Jira REST API`.
 
-📁 [View Project](./Jira-Automation)
+📁 [View Project](./Jira-Automation-Webhook)
 
 ---
 
-### **Kubernetes PR Analyzer**
-- A Python script that fetches pull requests from the **Kubernetes** GitHub repository and counts how many PRs each contributor created.    
+### 2️⃣ **Kubernetes PR Analyzer**
+- A Python script that fetches pull requests from the **Kubernetes** GitHub repository and counts how many PRs each contributor created.
 - Helps analyze contribution patterns using the **GitHub REST API**.
 - Stack: `Python`, `Requests`, `GitHub API`.
 
@@ -30,15 +30,6 @@ This repository showcases all my **DevOps-related projects** that I’ve built w
 - Stack: `Jenkins`, `Git`, `Docker`, `AWS EC2`.
 
 📁 [View Project](./Jenkins-CICD)
-
----
-
-### **Ansible Project**
-- Created 3 instances (Ubuntu & Centos) on aws using **Ansible loops** 
-- Set up **Passwordless authentication** between ansible control node and newly created instances
-- Automate the **Shutdown** of ubuntu instances using ansible conditions
-
-📁 [View Project](./Ansible-Project)
 
 ---
 
