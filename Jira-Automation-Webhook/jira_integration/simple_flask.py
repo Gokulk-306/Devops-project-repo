@@ -54,7 +54,7 @@ def createJira():
     body = request.get_json(silent=True) or {}
     comment_body = body.get("comment", {}).get("body", "")
 
-    if comment_body.strip() == "/jira":
+    if "/jira" in comment_body.lower():
         response = requests.request(
             "POST",
             url,
